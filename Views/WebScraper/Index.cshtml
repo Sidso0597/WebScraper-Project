@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Web Scraper";
+}
+
+<h2>Web Scraper</h2>
+
+<div>
+    <input type="text" id="urlInput" class="input-field" placeholder="Enter website URL" required />
+    <p id="validationMessage" style="color: red"></p>
+</div>
+<button id="fetchDataButton" class="button">Fetch Data</button>
+
+<!-- Image Gallery -->
+<div id="imageGallery" class="gallery"></div>
+
+<!-- Word Count Display -->
+<div id="wordCountContainer" class="word-count-container" style="display: none;">
+    <h4>Total Word Count: <span id="totalWordCount">0</span></h4>
+
+    <h5>Top 10 Frequent Words</h5>
+    <table id="wordTable" class="word-table">
+        <thead>
+            <tr>
+                <th>Word</th>
+                <th>Count</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data will be inserted dynamically here -->
+        </tbody>
+    </table>
+</div>
+
+<link rel="stylesheet" href="~/css/site.css" />
+<script src="~/js/site.js"></script>
