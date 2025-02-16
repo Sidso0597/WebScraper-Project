@@ -1,6 +1,7 @@
 # WebScraper Project
 To run the project:
-1. Open the solution in Visual Studio.
+1. Clone the project in Visual Studio.
+1. Launch solution in *Administrator mode* into Visual Studio to avoid warnings wrt dependencies.
 2. For local testing, the application should be run using IIS Express.
 
 
