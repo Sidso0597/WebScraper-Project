@@ -1,4 +1,8 @@
 # WebScraper Project
+To run the project:
+1. Open the solution in Visual Studio
+2. **For local testing, the application should be run using IIS Express**
+
 
 This project is a web scraping API built using ASP.NET Core that extracts images and analyzes word frequency from a given URL.
 Installed Packages:
